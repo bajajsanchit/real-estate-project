@@ -31,7 +31,7 @@ const HeroBanner = () => {
 			</div>
 
 			<div className="info-boxes">
-				<div className="info-box">Book Now @ ₹10 Lakhs*</div>
+				<div className="info-box">Book Now @ ₹11 Lakhs*</div>
 				<div className="info-box">1,00,000 sq ft. Clubhouse</div>
 				<div className="info-box">90% Open Area</div>
 				<div className="info-box">55+ Amenities</div>

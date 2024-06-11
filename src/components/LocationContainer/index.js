@@ -64,7 +64,7 @@ function LocationContainer() {
 					</div>
 					<div className="location-box">
 						<DirectionsTransitIcon />
-						<div>Only 12 minutes from your doorstep.</div>
+						<div>Only 8 minutes from your doorstep.</div>
 						<span>Rapid Metro Station</span>
 					</div>
 					<div className="location-box">
@@ -74,7 +74,7 @@ function LocationContainer() {
 					</div>
 					<div className="location-box">
 						<LocalMallIcon />
-						<div>Just a short 10-15 minute drive.</div>
+						<div>Just a short 10 minute drive.</div>
 						<span>Malls and Multiplexes</span>
 					</div>
 				</div>

@@ -9,6 +9,7 @@ import AboutDeveloper from "./components/AboutDeveloper";
 import Marquee from "./components/Marquee";
 
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import CallIcon from "@mui/icons-material/Call";
 
 function App() {
 	return (
@@ -31,21 +32,33 @@ function App() {
 
 const FloatingWhatsAppButton = () => {
 	const phoneNumber = "9560046100";
-	const message = "Hello, I would like to get in touch regarding...";
+	const message = "I am interested to know more, requesting a call back !";
 	const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
 		message
 	)}`;
 
 	return (
-		<a
-			href={whatsappLink}
-			className="floating-whatsapp-button"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			<WhatsAppIcon style={{ marginRight: "0.4em" }} />
-			Get in touch on WhatsApp
-		</a>
+		<>
+			<a
+				href={whatsappLink}
+				className="floating-whatsapp-button"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<WhatsAppIcon style={{ marginRight: "0.4em" }} />
+				Get in touch on WhatsApp
+			</a>
+
+			<a
+				href={"tel:+919560046100"}
+				className="floating-call-button"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<CallIcon style={{ marginRight: "0.4em" }} />
+				Call us now
+			</a>
+		</>
 	);
 };
 
