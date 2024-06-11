@@ -3,6 +3,11 @@
 	grid-template-columns: 3fr 2fr;
 	padding: 10vh 0;
 
+	@media (max-width: 850px) {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.map-container {
 		padding: 16px;
 	}
