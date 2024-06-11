@@ -1,6 +1,12 @@
+.hero-container {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
 .hero-banner {
 	position: relative;
-	height: 100vh;
+	min-height: 100vh;
+
 	background-image: url("https://signature-project.in/sector71-highrise/images/banner.jpg");
 	background-size: cover;
 	background-position: center;
@@ -66,6 +72,11 @@
 	width: 100%;
 	justify-content: space-around;
 	padding: 20px;
+
+	@media (max-width: 900px) {
+		width: 80%;
+		flex-direction: column;
+	}
 }
 
 .info-box {
@@ -78,6 +89,10 @@
 	font-size: 1.2rem;
 	text-align: center;
 	color: white;
+
+	@media (max-width: 900px) {
+		margin: 8px;
+	}
 }
 
 .header {
