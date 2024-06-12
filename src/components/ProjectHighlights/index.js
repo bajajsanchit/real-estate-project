@@ -86,45 +86,54 @@ const ProjectHighlights = () => {
 	}, []);
 
 	return (
-		<div className="project-highlights">
-			<div className="highlights" style={{ maxWidth: "80%" }}>
-				<h2>Project Highlights</h2>
-				<p>
-					Immerse yourself in an unmatched lifestyle with Signature Global
-					Titanium’s unparalleled amenities
-				</p>
+		<>
+			<div className="info-boxing">
+				<div className="info-box">Book Now @ ₹11 Lakhs*</div>
+				<div className="info-box">1,00,000 sq ft. Clubhouse</div>
+				<div className="info-box">90% Open Area</div>
+				<div className="info-box">55+ Amenities</div>
+			</div>
 
-				<button
-					style={{
-						background: "#3F983D",
-						padding: "14px 16px",
-						borderRadius: "4px",
-						fontSize: "15px",
-						fontWeight: "700",
-						color: "white",
-						border: "none",
-						textTransform: "uppercase",
-						cursor: "pointer",
-						marginBottom: "1.2em",
-						width: "100%",
-					}}
-				>
-					Book your dream home
-				</button>
+			<div className="project-highlights">
+				<div className="highlights" style={{ maxWidth: "80%" }}>
+					<h2>Project Highlights</h2>
+					<p>
+						Immerse yourself in an unmatched lifestyle with Signature Global
+						Titanium’s unparalleled amenities
+					</p>
 
-				<div>
-					<h3>{highlights[currentIndex].title}</h3>
-					<p>{highlights[currentIndex].subtext}</p>
+					<button
+						style={{
+							background: "#3F983D",
+							padding: "14px 16px",
+							borderRadius: "4px",
+							fontSize: "15px",
+							fontWeight: "700",
+							color: "white",
+							border: "none",
+							textTransform: "uppercase",
+							cursor: "pointer",
+							marginBottom: "1.2em",
+							width: "100%",
+						}}
+					>
+						Book your dream home
+					</button>
+
+					<div>
+						<h3>{highlights[currentIndex].title}</h3>
+						<p>{highlights[currentIndex].subtext}</p>
+					</div>
+				</div>
+
+				<div className="carousel">
+					<img
+						src={highlights[currentIndex].image}
+						alt={highlights[currentIndex].title}
+					/>
 				</div>
 			</div>
-
-			<div className="carousel">
-				<img
-					src={highlights[currentIndex].image}
-					alt={highlights[currentIndex].title}
-				/>
-			</div>
-		</div>
+		</>
 	);
 };
 

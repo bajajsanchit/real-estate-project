@@ -32,18 +32,34 @@
 	z-index: 2;
 	max-width: 900px;
 	padding: 20px;
+
+	@media (max-width: 500px) {
+		top: 10vh;
+	}
 }
 
 .hero-title {
-	font-size: 2rem;
+	font-size: 2em;
 	margin-bottom: 20px;
 }
 
 .hero-subtitle {
-	font-size: 1.3rem;
+	font-size: 1.3em;
 	margin-bottom: 40px;
 	line-height: 1.5;
 	max-width: 700px;
+
+	// @media (max-width: 700px) {
+	// 	font-size: 1em;
+	// }
+}
+
+.signature-logo {
+	width: 40%;
+
+	@media (max-width: 700px) {
+		width: 40%;
+	}
 }
 
 .hero-button {
@@ -59,9 +75,9 @@
 	transition: background-color 0.3s;
 	text-transform: uppercase;
 
-	@media (max-width: 900px) {
-		display: none;
-	}
+	// @media (max-width: 900px) {
+	// 	display: none;
+	// }
 }
 
 .hero-button:hover {
@@ -80,6 +96,7 @@
 	@media (max-width: 900px) {
 		width: 80%;
 		flex-direction: column;
+		display: none;
 	}
 }
 

@@ -10,7 +10,7 @@ const HeroBanner = () => {
 					<img
 						alt="Signature Logo"
 						src="https://sghighrise.anantrealties.in/assets/images/logo.png"
-						style={{ height: "75px" }}
+						className="signature-logo"
 					/>
 				</div>
 				<div className="hero-content">
