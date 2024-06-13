@@ -3,6 +3,7 @@
 	flex-direction: column;
 	gap: 1em;
 	margin: 3vw 0;
+	display: none;
 
 	@media (min-width: 900px) {
 		display: none;
