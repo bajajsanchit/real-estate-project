@@ -2,6 +2,12 @@ import React from "react";
 import "./style.scss";
 
 const HeroBanner = () => {
+	const phoneNumber = "9560046100";
+	const message = "I am interested to know more, requesting a call back !";
+	const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+		message
+	)}`;
+
 	return (
 		<div className="hero-container">
 			<div className="hero-banner">
@@ -28,7 +34,9 @@ const HeroBanner = () => {
 						It's an oasis befitting the royal you!
 					</p>
 
-					<button className="hero-button">Book YOUR DREAM HOme</button>
+					<a href={whatsappLink}>
+						<button className="hero-button">Book YOUR DREAM HOme</button>
+					</a>
 				</div>
 
 				<div className="info-boxes">

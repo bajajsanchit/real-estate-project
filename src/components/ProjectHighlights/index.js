@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./styles.scss";
 
+const phoneNumber = "9560046100";
+const message = "I am interested to know more, requesting a call back !";
+const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+	message
+)}`;
+
 const highlights = [
 	{
 		title: "12 towers spreading across 23 acres",
@@ -102,23 +108,25 @@ const ProjectHighlights = () => {
 						Titanium’s unparalleled amenities
 					</p>
 
-					<button
-						style={{
-							background: "#3F983D",
-							padding: "14px 16px",
-							borderRadius: "4px",
-							fontSize: "15px",
-							fontWeight: "700",
-							color: "white",
-							border: "none",
-							textTransform: "uppercase",
-							cursor: "pointer",
-							marginBottom: "1.2em",
-							width: "100%",
-						}}
-					>
-						Book your dream home
-					</button>
+					<a href={whatsappLink}>
+						<button
+							style={{
+								background: "#3F983D",
+								padding: "14px 16px",
+								borderRadius: "4px",
+								fontSize: "15px",
+								fontWeight: "700",
+								color: "white",
+								border: "none",
+								textTransform: "uppercase",
+								cursor: "pointer",
+								marginBottom: "1.2em",
+								width: "100%",
+							}}
+						>
+							Book your dream home
+						</button>
+					</a>
 
 					<div>
 						<h3>{highlights[currentIndex].title}</h3>
