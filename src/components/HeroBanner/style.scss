@@ -3,6 +3,13 @@
 	margin: 0 auto;
 }
 
+.price-tag {
+	// background-color: aqua;
+	@media (min-width: 900px) {
+		display: none;
+	}
+}
+
 .hero-banner {
 	position: relative;
 	min-height: 100vh;

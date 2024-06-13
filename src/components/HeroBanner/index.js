@@ -35,7 +35,9 @@ const HeroBanner = () => {
 					</p>
 
 					<a href={whatsappLink}>
-						<button className="hero-button">Book YOUR DREAM HOme</button>
+						<button className="hero-button">
+							Book YOUR DREAM HOme <span className="price-tag">@ 11 Lacs</span>
+						</button>
 					</a>
 				</div>
 
