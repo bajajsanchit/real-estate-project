@@ -1,10 +1,11 @@
 import "./style.scss";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import DriveEtaIcon from "@mui/icons-material/DriveEta";
+import SchoolIcon from "@mui/icons-material/School";
 import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
-import DirectionsTransitIcon from "@mui/icons-material/DirectionsTransit";
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
+import FactoryIcon from "@mui/icons-material/Factory";
 
 function LocationContainer() {
 	return (
@@ -14,7 +15,7 @@ function LocationContainer() {
 					title="Signature Global Map"
 					style={{ height: "100%", width: "100%" }}
 					frameborder="0"
-					src="https://www.google.com/maps/embed/v1/place?q=signature+global+titanium&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+					src="https://www.google.com/maps/embed/v1/place?q=m3m+golf+hill&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
 				></iframe>
 			</div>
 
@@ -49,33 +50,38 @@ function LocationContainer() {
 				<div className="location-icons">
 					<div className="location-box">
 						<LocationOnIcon />
-						<div>Just 5 minutes away.</div>
-						<span>Golf Course Road</span>
+						<div>15 minutes</div>
+						<span>NH-8</span>
 					</div>
 					<div className="location-box">
-						<DriveEtaIcon />
-						<div>A quick 3-minute drive.</div>
-						<span>Sohna Road</span>
+						<SchoolIcon />
+						<div>Near to Prominent educational institutions</div>
+						<span>DPS, Government Polytechnic Manesar, Amity University</span>
 					</div>
 					<div className="location-box">
 						<FlightTakeoffIcon />
-						<div>Reachable in 26 minutes.</div>
+						<div>30 minutes</div>
 						<span>IGI Airport</span>
 					</div>
 					<div className="location-box">
-						<DirectionsTransitIcon />
-						<div>Only 8 minutes from your doorstep.</div>
-						<span>Rapid Metro Station</span>
+						<BusinessCenterIcon />
+						<div>25 minutes</div>
+						<span>Cyber Hub</span>
 					</div>
 					<div className="location-box">
 						<LocalHospitalIcon />
-						<div>Located within 10-15 minutes.</div>
-						<span>Hospitals</span>
+						<div>20 minutes</div>
+						<span>Medanta - The Medicity</span>
 					</div>
 					<div className="location-box">
 						<LocalMallIcon />
-						<div>Just a short 10 minute drive.</div>
-						<span>Malls and Multiplexes</span>
+						<div>25 minutes</div>
+						<span>Ambience Mall</span>
+					</div>
+					<div className="location-box">
+						<FactoryIcon />
+						<div>30 minutes</div>
+						<span>Manesar Industrial Area</span>
 					</div>
 				</div>
 			</div>

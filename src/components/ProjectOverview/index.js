@@ -68,21 +68,27 @@ const amenities = [
 const OverviewSection = () => {
 	return (
 		<div className="overview-section">
-			<h1>Welcome to Signature Global Titanium</h1>
+			<h1>Welcome to M3M Golf Hills, Sector-79, Gurgaon</h1>
 			<p>
-				A beacon of ultra-luxury nestled in the heart of Gurgaon. As part of an
-				expansive 100-acre township, this prestigious development promises not
-				just a home but a sublime living experience.Imagine your life in a
-				7-star residential enclave with low-density living—42 units per acre in
-				majestic towers scaling the skies up to 40 stories.
+				This exquisite residential marvel by M3M Properties promises a sublime
+				living experience in an ultra-modern enclave. With a prime location in a
+				rapidly developing area, M3M Golf Hills offers an exceptional lifestyle
+				in a serene setting.
 			</p>
 
 			<p>
-				Each element, from the dual kids' pools and all-weather swimming pools
-				to the exclusive Marquee Clubhouse with private lift lobbies, is
-				designed to elevate your living standard. With spacious 3.5 and 4.5 BHK
-				residences available, your dream home awaits in a setting that’s
-				meticulously crafted just for you.
+				Discover spacious 2.5, 3.5, and 4.5 BHK residences with top-notch
+				architecture. Enjoy features like modern kitchens, wooden flooring in
+				master bedrooms, imported marble flooring, and spacious balconies with
+				breathtaking golf course views.
+			</p>
+
+			<p>
+				M3M Golf Hills is designed for discerning property buyers, offering
+				ample privacy and attention to detail in every corner. Experience a
+				lifestyle that matches global ultra-luxury standards, with a perfect
+				blend of aesthetics and functionality. Your dream home awaits at M3M
+				Golf Hills, Sector 79, Gurgaon.
 			</p>
 
 			<div className="amenities-section">

@@ -1,17 +1,6 @@
-import { useState } from "react";
 import "./style.scss";
 
 const ContactUs = () => {
-	const [name, setName] = useState("");
-	const [contactNumber, setContactNumber] = useState("");
-
-	const handleSubmit = (event) => {
-		event.preventDefault();
-
-		console.log("Name:", name);
-		console.log("Contact Number:", contactNumber);
-	};
-
 	return (
 		<div className="contact-container">
 			<h2 className="contact-title">Say Hello – We’re Excited to Connect!</h2>
@@ -19,7 +8,11 @@ const ContactUs = () => {
 				Your dream home awaits. Get in touch with us today, and let’s start the
 				conversation. We can’t wait to hear from you!
 			</p>
-			<form onSubmit={handleSubmit} className="contact-form">
+			<form
+				action="https://formspree.io/f/moqgggbq" // Replace with your Formspree endpoint
+				method="POST"
+				className="contact-form"
+			>
 				<div className="form-group">
 					<label htmlFor="name" className="form-label">
 						Your Name
@@ -27,8 +20,7 @@ const ContactUs = () => {
 					<input
 						type="text"
 						id="name"
-						value={name}
-						onChange={(e) => setName(e.target.value)}
+						name="name"
 						className="form-input"
 						required
 					/>
@@ -40,13 +32,11 @@ const ContactUs = () => {
 					<input
 						type="text"
 						id="contactNumber"
-						value={contactNumber}
-						onChange={(e) => setContactNumber(e.target.value)}
+						name="contactNumber"
 						className="form-input"
 						required
 					/>
 				</div>
-
 				<button type="submit" className="form-button">
 					Submit Enquiry
 				</button>

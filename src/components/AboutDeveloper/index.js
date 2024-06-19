@@ -5,33 +5,39 @@ const AboutDeveloper = () => {
 	return (
 		<div className="about-section">
 			<div className="text-column">
-				<h2>Transforming Dreams into Reality</h2>
+				<h2>Shaping Luxury Living in Gurugram</h2>
 				<p>
-					Since 2014, Signature Global has been at the forefront of real estate
-					development in India, steadfastly adhering to our pillars of trust,
-					quality, and excellence. Our mission goes beyond building houses; we
-					craft homes that harbor happiness and contentment.
+					Since 2007, M3M Properties has been redefining the real estate
+					landscape in Gurugram, India. Our dedication to excellence,
+					innovation, and sustainability sets us apart as a premier developer of
+					high-quality residential, commercial, and retail properties.
 				</p>
 				<p>
-					Backed by prestigious investors like HDFC and IFC, we bring high
-					corporate governance and a commitment to deliver unparalleled living
-					experiences. With over 6.7 million sq. ft. delivered and many more in
-					the pipeline, we're shaping the future of affordable and mid-segment
-					housing in Delhi NCR.
+					Our portfolio boasts luxurious apartments, villas, and penthouses,
+					alongside state-of-the-art office spaces, shopping malls, and
+					entertainment hubs. With a focus on eco-friendly designs and features
+					such as rainwater harvesting and solar panels, we are committed to
+					creating sustainable living environments.
 				</p>
-				<h2>Integrity and Innovation in Every Brick</h2>
+				<h2>Excellence and Innovation in Every Project</h2>
 				<p>
-					Signature Global is synonymous with trust and reliability. Our
-					dedication to quality and transparency has earned us a significant
-					presence in the real estate industry. Supported by global investors,
-					we uphold the highest standards of construction and ethical practices,
-					delivering luxurious living spaces that you can count on.
+					At M3M Properties, we partner with world-renowned architects and
+					designers to bring our visionary projects to life. Our collaboration
+					with top contractors and suppliers ensures the highest standards of
+					construction and timely completion of all our developments.
+				</p>
+				<p>
+					Our efforts have been recognized with numerous awards, including the
+					'Luxury Project of the Year' at the 2018 Realty Plus Excellence Awards
+					for M3M Golf Estate. We remain committed to delivering unparalleled
+					living and working spaces that embody trust, quality, and innovation.
 				</p>
 			</div>
+
 			<div className="image-column">
 				<img
-					src="https://signature-project.in/sector71-highrise/images/logo.webp"
-					alt="Signature Global"
+					src="https://m3mindianoida.in/wp-content/uploads/2023/09/M3M-Logo-1.jpg"
+					alt="M3M Properties"
 				/>
 			</div>
 		</div>

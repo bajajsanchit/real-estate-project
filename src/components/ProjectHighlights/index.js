@@ -95,8 +95,8 @@ const ProjectHighlights = () => {
 		<>
 			<div className="info-boxing">
 				<div className="info-box">Book Now @ ₹11 Lakhs*</div>
-				<div className="info-box">1,00,000 sq ft. Clubhouse</div>
-				<div className="info-box">90% Open Area</div>
+				<div className="info-box">Possession Date: Mar - 2028</div>
+				<div className="info-box">Land Area: 53.38 Acres</div>
 				<div className="info-box">55+ Amenities</div>
 			</div>
 
@@ -104,8 +104,8 @@ const ProjectHighlights = () => {
 				<div className="highlights" style={{ maxWidth: "80%" }}>
 					<h2>Project Highlights</h2>
 					<p>
-						Immerse yourself in an unmatched lifestyle with Signature Global
-						Titanium’s unparalleled amenities
+						Immerse yourself in an unmatched lifestyle with M3M Golf Hills'
+						unparalleled amenities
 					</p>
 
 					<a href={whatsappLink}>

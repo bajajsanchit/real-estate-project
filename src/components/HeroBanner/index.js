@@ -14,24 +14,23 @@ const HeroBanner = () => {
 				<div className="overlay"></div>
 				<div className="header">
 					<img
-						alt="Signature Logo"
-						src="https://sghighrise.anantrealties.in/assets/images/logo.png"
+						alt="M3M Logo"
+						src="https://m3mindianoida.in/wp-content/uploads/2023/09/M3M-Logo-1.jpg"
 						className="signature-logo"
 					/>
 				</div>
 				<div className="hero-content">
-					<h1 className="hero-title">
-						Signature Global Titanium at Sector 71, Gurgaon
-					</h1>
+					<h1 className="hero-title">M3M GOLF HILLS At Sector 79, Gurgaon</h1>
 
 					<p className="hero-subtitle">
-						Discover unparalleled luxury on SPR Road. This architectural
-						masterpiece, IGBC GOLD Pre-Certified, redefines luxury living with
-						unique features and sustainable design. Step into a world of
-						grandeur, reserved for the privileged few. Where triumph meets
-						exclusivity, and every moment exudes opulence. Titanium 71 sets the
-						standard for regal living, offering an ambiance rich in indulgence.
-						It's an oasis befitting the royal you!
+						Discover luxurious living at M3M Golf Hills Gurgaon with our
+						exquisite 4.5 BHK Golf Residences. These Hill Living Apartments are
+						designed to offer unparalleled comfort and opulence, redefining
+						sophistication. Enjoy exclusive access to a state-of-the-art
+						clubhouse, dive into relaxation with our luxurious swimming pool,
+						and stay fit in our fully equipped gymnasium. Your children will
+						love the safe and fun play area, while you can unwind in the
+						beautifully landscaped gardens.
 					</p>
 
 					<a href={whatsappLink}>
@@ -43,8 +42,8 @@ const HeroBanner = () => {
 
 				<div className="info-boxes">
 					<div className="info-box">Book Now @ ₹11 Lakhs*</div>
-					<div className="info-box">1,00,000 sq ft. Clubhouse</div>
-					<div className="info-box">90% Open Area</div>
+					<div className="info-box">Possession Date: Mar - 2028</div>
+					<div className="info-box">Land Area: 53.38 Acres</div>
 					<div className="info-box">55+ Amenities</div>
 				</div>
 			</div>
