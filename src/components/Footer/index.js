@@ -17,7 +17,12 @@ const Footer = () => {
 						<a href="https://twitter.com" className="social-icon">
 							<TwitterIcon />
 						</a>
-						<a href="https://instagram.com" className="social-icon">
+						<a
+							href="https://www.instagram.com/nestquestwithneha/"
+							target="_blank"
+							rel="noreferrer"
+							className="social-icon"
+						>
 							<InstagramIcon />
 						</a>
 						<a href="https://linkedin.com" className="social-icon">
