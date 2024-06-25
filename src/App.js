@@ -16,10 +16,11 @@ function App() {
 		<>
 			<div>
 				<HeroBanner />
-				<ProjectHighlights />
-				<Marquee />
-				<AboutDeveloper />
 				<OverviewSection />
+				<AboutDeveloper />
+				<Marquee />
+				<ProjectHighlights />
+
 				<LocationContainer />
 				<ContactUs />
 				<Footer />

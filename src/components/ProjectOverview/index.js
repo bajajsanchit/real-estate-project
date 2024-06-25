@@ -2,12 +2,12 @@ import React from "react";
 import "./styles.scss";
 
 const amenities = [
-	{
-		title: "Multipurpose Hall",
-		image:
-			"https://images.unsplash.com/photo-1542665952-14513db15293?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		subtext: "Ideal for events and gatherings with family and friends.",
-	},
+	// {
+	// 	title: "Multipurpose Hall",
+	// 	image:
+	// 		"https://images.unsplash.com/photo-1542665952-14513db15293?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+	// 	subtext: "Ideal for events and gatherings with family and friends.",
+	// },
 	{
 		title: "Gymnasium",
 		image:
@@ -33,12 +33,12 @@ const amenities = [
 			"https://images.unsplash.com/photo-1560090995-01632a28895b?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		subtext: "All-weather swimming pool for relaxation and exercise.",
 	},
-	{
-		title: "Privacy",
-		image:
-			"https://images.unsplash.com/photo-1633265486064-086b219458ec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		subtext: "Designed to ensure maximum privacy and comfort for residents.",
-	},
+	// {
+	// 	title: "Privacy",
+	// 	image:
+	// 		"https://images.unsplash.com/photo-1633265486064-086b219458ec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+	// 	subtext: "Designed to ensure maximum privacy and comfort for residents.",
+	// },
 	{
 		title: "Secure Community",
 		image:

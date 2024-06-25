@@ -5,8 +5,14 @@ const AboutDeveloper = () => {
 	return (
 		<div className="about-section">
 			<div className="text-column">
-				<h2>Shaping Luxury Living in Gurugram</h2>
 				<p>
+					Step onto the green from your doorstep at M3M Golf Hills Gurgaon!
+					Premier 4.5 BHK golf residences designed for enthusiasts who desire
+					luxury amidst lush landscapes. Elevate your game with exclusive access
+					to a stunning golf course, plus a clubhouse, pool, and more. Live your
+					passion in a home where every day is a golf day!
+				</p>
+				{/* <p>
 					Since 2007, M3M Properties has been redefining the real estate
 					landscape in Gurugram, India. Our dedication to excellence,
 					innovation, and sustainability sets us apart as a premier developer of
@@ -18,8 +24,8 @@ const AboutDeveloper = () => {
 					entertainment hubs. With a focus on eco-friendly designs and features
 					such as rainwater harvesting and solar panels, we are committed to
 					creating sustainable living environments.
-				</p>
-				<h2>Excellence and Innovation in Every Project</h2>
+				</p> */}
+				{/* <h2>Excellence and Innovation in Every Project</h2>
 				<p>
 					At M3M Properties, we partner with world-renowned architects and
 					designers to bring our visionary projects to life. Our collaboration
@@ -31,12 +37,12 @@ const AboutDeveloper = () => {
 					'Luxury Project of the Year' at the 2018 Realty Plus Excellence Awards
 					for M3M Golf Estate. We remain committed to delivering unparalleled
 					living and working spaces that embody trust, quality, and innovation.
-				</p>
+				</p> */}
 			</div>
 
 			<div className="image-column">
 				<img
-					src="https://m3mindianoida.in/wp-content/uploads/2023/09/M3M-Logo-1.jpg"
+					src="https://golfhill-gurgaon.com/m3m/assets/img/webp/b1-1400w.webp"
 					alt="M3M Properties"
 				/>
 			</div>

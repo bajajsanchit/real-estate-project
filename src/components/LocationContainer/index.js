@@ -29,34 +29,34 @@ function LocationContainer() {
 						your new home offers easy access to Delhi's vibrant life.
 					</p>
 
-					<div className="subtext">
+					{/* <div className="subtext">
 						Perfectly Positioned for a Balanced Lifestyle
 					</div>
 					<p className="content">
 						Imagine living in a location that puts everything within reach. From
 						major business hubs to entertainment hotspots, your new address
 						ensures you're never far from where you need to be.
-					</p>
+					</p> */}
 
-					<div className="subtext">Seamless Connectivity</div>
+					{/* <div className="subtext">Seamless Connectivity</div>
 					<p className="content">
 						Whether it's a short commute to work or a weekend getaway, our prime
 						location provides seamless connectivity to major roads and
 						transportation options. Enjoy the luxury of time saved and
 						convenience gained.
-					</p>
+					</p> */}
 				</div>
 
 				<div className="location-icons">
-					<div className="location-box">
+					{/* <div className="location-box">
 						<LocationOnIcon />
 						<div>15 minutes</div>
 						<span>NH-8</span>
-					</div>
+					</div> */}
 					<div className="location-box">
 						<SchoolIcon />
-						<div>Near to Prominent educational institutions</div>
-						<span>DPS, Government Polytechnic Manesar, Amity University</span>
+						<div>25 minutes</div>
+						<span>DPS, Amity University</span>
 					</div>
 					<div className="location-box">
 						<FlightTakeoffIcon />

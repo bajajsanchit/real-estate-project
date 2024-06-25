@@ -30,11 +30,11 @@ const highlights = [
 			"Enjoy the serene ambiance created by our beautifully designed waterbodies. These water features not only enhance the aesthetic appeal but also promote a tranquil living environment.",
 	},
 	{
-		title: "2 Apartments to a Core",
+		title: "4 Corner Apartments to one floor",
 		image:
 			"https://images.unsplash.com/photo-1603375605373-4b2229bd5864?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		subtext:
-			"Experience enhanced privacy and exclusivity with only two apartments to a core. This design ensures minimal sharing of common spaces and maximum personal space.",
+			"Experience enhanced privacy and exclusivity with only four apartments to a core. This design ensures minimal sharing of common spaces and maximum personal space.",
 	},
 	{
 		title: "65% open and green area",
@@ -94,10 +94,10 @@ const ProjectHighlights = () => {
 	return (
 		<>
 			<div className="info-boxing">
-				<div className="info-box">Book Now @ ₹11 Lakhs*</div>
-				<div className="info-box">Possession Date: Mar - 2028</div>
-				<div className="info-box">Land Area: 53.38 Acres</div>
-				<div className="info-box">55+ Amenities</div>
+				<div className="info-box">Possession Date March 2028</div>
+				<div className="info-box">Discount of 20000/sqft</div>
+				<div className="info-box">Customised Payment Plan</div>
+				<div className="info-box">3cr Onwards</div>
 			</div>
 
 			<div className="project-highlights">

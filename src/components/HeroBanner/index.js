@@ -15,7 +15,7 @@ const HeroBanner = () => {
 				<div className="header">
 					<img
 						alt="M3M Logo"
-						src="https://m3mindianoida.in/wp-content/uploads/2023/09/M3M-Logo-1.jpg"
+						src="https://m3mindianoida.in/wp-content/uploads/2023/10/m3m-side-logo.png"
 						className="signature-logo"
 					/>
 				</div>
@@ -35,16 +35,17 @@ const HeroBanner = () => {
 
 					<a href={whatsappLink}>
 						<button className="hero-button">
-							Book YOUR DREAM HOme <span className="price-tag">@ 11 Lacs</span>
+							Book YOUR DREAM HOme @ 10 Lacs
+							{/* <span className="price-tag">@ 11 Lacs</span> */}
 						</button>
 					</a>
 				</div>
 
 				<div className="info-boxes">
-					<div className="info-box">Book Now @ ₹11 Lakhs*</div>
-					<div className="info-box">Possession Date: Mar - 2028</div>
-					<div className="info-box">Land Area: 53.38 Acres</div>
-					<div className="info-box">55+ Amenities</div>
+					<div className="info-box">Possession Date March 2028</div>
+					<div className="info-box">Discount of 20000/sqft</div>
+					<div className="info-box">Customised Payment Plan</div>
+					<div className="info-box">3cr Onwards</div>
 				</div>
 			</div>
 		</div>
