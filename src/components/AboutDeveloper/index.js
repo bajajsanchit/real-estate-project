@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
 import "./style.scss"; // Make sure to create this CSS file
 
 const AboutDeveloper = () => {
@@ -25,6 +26,7 @@ const AboutDeveloper = () => {
 					such as rainwater harvesting and solar panels, we are committed to
 					creating sustainable living environments.
 				</p> */}
+
 				{/* <h2>Excellence and Innovation in Every Project</h2>
 				<p>
 					At M3M Properties, we partner with world-renowned architects and
@@ -41,13 +43,40 @@ const AboutDeveloper = () => {
 			</div>
 
 			<div className="image-column">
-				<img
+				{/* <img
 					src="https://golfhill-gurgaon.com/m3m/assets/img/webp/b1-1400w.webp"
 					alt="M3M Properties"
-				/>
+				/> */}
+
+				<ImageCarousel />
 			</div>
 		</div>
 	);
 };
 
 export default AboutDeveloper;
+
+const ImageCarousel = () => {
+	const [currentIndex, setCurrentIndex] = useState(0);
+
+	const images = [
+		"https://golfhill-gurgaon.com/m3m/assets/img/webp/b1-1400w.webp",
+		"https://images.unsplash.com/photo-1611374243147-44a702c2d44c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1561251224-e393160cd769?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1591491653056-4313c0e2f379?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+	];
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+		}, 3000); // Change highlight every 3 seconds
+
+		return () => clearInterval(interval);
+	}, []);
+
+	return (
+		<div>
+			<img src={images[currentIndex]} />
+		</div>
+	);
+};
