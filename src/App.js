@@ -7,6 +7,7 @@ import ProjectHighlights from "./components/ProjectHighlights";
 import HeroBanner from "./components/HeroBanner";
 import AboutDeveloper from "./components/AboutDeveloper";
 import Marquee from "./components/Marquee";
+import ProjectPlans from "./components/ProjectPlans";
 
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CallIcon from "@mui/icons-material/Call";
@@ -18,6 +19,7 @@ function App() {
 				<HeroBanner />
 				<OverviewSection />
 				<AboutDeveloper />
+				<ProjectPlans />
 				<Marquee />
 				<ProjectHighlights />
 
