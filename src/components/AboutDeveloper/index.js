@@ -75,7 +75,7 @@ const ImageCarousel = () => {
 	}, []);
 
 	return (
-		<div>
+		<div style={{ maxWidth: "1100px" }}>
 			<img src={images[currentIndex]} />
 		</div>
 	);

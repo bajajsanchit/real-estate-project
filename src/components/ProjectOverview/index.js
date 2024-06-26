@@ -91,7 +91,7 @@ const OverviewSection = () => {
 				Golf Hills, Sector 79, Gurgaon.
 			</p>
 
-			<div className="amenities-section">
+			<div style={{ maxWidth: "1100px" }} className="amenities-section">
 				{amenities.map((amenity, index) => (
 					<div className="amenity-card" key={index}>
 						<img src={amenity.image} alt={amenity.title} />
