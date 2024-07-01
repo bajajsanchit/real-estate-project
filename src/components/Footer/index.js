@@ -11,12 +11,17 @@ const Footer = () => {
 				<div className="footer-section">
 					<div className="follow-text">Follow Us & Find Your Dream Home</div>
 					<div className="social-icons">
-						<a href="https://facebook.com" className="social-icon">
+						<a
+							href="https://www.facebook.com/profile.php?id=61561533697386&mibextid=LQQJ4d"
+							className="social-icon"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<FacebookIcon />
 						</a>
-						<a href="https://twitter.com" className="social-icon">
+						{/* <a href="https://twitter.com" className="social-icon">
 							<TwitterIcon />
-						</a>
+						</a> */}
 						<a
 							href="https://www.instagram.com/nestquestwithneha/"
 							target="_blank"
@@ -25,9 +30,9 @@ const Footer = () => {
 						>
 							<InstagramIcon />
 						</a>
-						<a href="https://linkedin.com" className="social-icon">
+						{/* <a href="https://linkedin.com" className="social-icon">
 							<LinkedInIcon />
-						</a>
+						</a> */}
 					</div>
 				</div>
 			</div>
