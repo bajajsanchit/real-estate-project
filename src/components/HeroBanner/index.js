@@ -43,9 +43,9 @@ const HeroBanner = () => {
 
 				<div className="info-boxes">
 					<div className="info-box">Possession Date March 2028</div>
-					<div className="info-box">Discount of 20000/sqft</div>
+					<div className="info-box">Discount of 2000/sqft</div>
 					<div className="info-box">Customised Payment Plan</div>
-					<div className="info-box">3cr Onwards</div>
+					<div className="info-box">Rs. 3cr Onwards</div>
 				</div>
 			</div>
 		</div>

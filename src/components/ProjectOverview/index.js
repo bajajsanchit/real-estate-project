@@ -70,9 +70,9 @@ const OverviewSection = () => {
 		<div className="overview-section">
 			<div className="info-boxing">
 				<div className="info-box">Possession Date March 2028</div>
-				<div className="info-box">Discount of 20000/sqft</div>
+				<div className="info-box">Discount of 2000/sqft</div>
 				<div className="info-box">Customised Payment Plan</div>
-				<div className="info-box">3cr Onwards</div>
+				<div className="info-box">Rs. 3cr Onwards</div>
 			</div>
 
 			<h1>Welcome to M3M Golf Hills, Sector-79, Gurgaon</h1>
